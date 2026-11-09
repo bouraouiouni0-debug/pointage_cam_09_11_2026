@@ -4,7 +4,7 @@ const path = require("path");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const API_KEY = process.env.API_KEY || "CHANGE_MOI_123";   // même clé dans le sketch
+const API_KEY = process.env.API_KEY || "user1234";   // même clé dans le sketch
 const PAGE_USER = process.env.PAGE_USER || "";             // optionnel : protège la page
 const PAGE_PASS = process.env.PAGE_PASS || "";
 
